@@ -37,16 +37,11 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Developed by: RegisterNumber:*/
 ```
-module exe_2(f_and,f_or,f_not,f_nor,f_nand,f_xor,f_xnor,a,b);
-input a,b;
-output f_and,f_or,f_not,f_nor,f_nand,f_xor,f_xnor;
-and(f_and,a,b);
-or(f_or,a,b);
-not(f_not,a);
-nand(f_nand,a,b);
-nor(f_nor,a,b);
-xor(f_xor,a,b);
-xnor(f_xnor,a,b);
+module exe_2(a,b,c,d,w,x,y,z,f1,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
+assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 ```
 
@@ -54,10 +49,12 @@ endmodule
 
 **Output:**
 
-![Screenshot (25)](https://github.com/user-attachments/assets/0ca41ee6-8080-4f2c-b661-5761afa0351a)
+![Screenshot 2024-11-08 124451](https://github.com/user-attachments/assets/02f0e23a-4ba2-43d1-82bb-9ae27c873192)
+
 
 **Timing Diagram**
-![Screenshot (24)](https://github.com/user-attachments/assets/ce82b881-3475-493d-9f0f-99e86983fd48)
+
+![Screenshot 2024-11-08 125039](https://github.com/user-attachments/assets/44770b49-5ea7-4d9e-b8ed-0ee057606fb7)
 
 **Result:**
 The basic logic gates are varified and the truth table are varified.
