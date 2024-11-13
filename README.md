@@ -49,12 +49,14 @@ endmodule
 
 **Output:**
 
-![Screenshot 2024-11-08 124451](https://github.com/user-attachments/assets/02f0e23a-4ba2-43d1-82bb-9ae27c873192)
+![Screenshot 2024-11-13 094153](https://github.com/user-attachments/assets/360b3d91-ebfd-434c-883e-77fd3912b52d)
+
 
 
 **Timing Diagram**
 
-![Screenshot 2024-11-08 125039](https://github.com/user-attachments/assets/44770b49-5ea7-4d9e-b8ed-0ee057606fb7)
+
+![Screenshot 2024-11-13 094816](https://github.com/user-attachments/assets/7dc10b2a-fd57-445e-b76f-89b6a2a7809e)
 
 **Result:**
 The basic logic gates are varified and the truth table are varified.
